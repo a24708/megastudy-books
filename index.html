@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메가스터디북스</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+ 
+     <script src="js/jquery-3.7.1.min.js"></script>
+     <script src="js/jquery-ui.min.js"></script>
+
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+              <div class="navTop">
+                <div class="inner">
+                    <div class="navTop_contents">
+                      <input type="text" placeholder="검색어 입력">
+                      <button type="button"><img src="img/icon/ico_search.svg" alt=""></button>
+                      <button type="button"><img src="img/icon/ico_login.svg" alt=""></button>
+                    </div>
+                </div>
+              </div>
+              
+
+              <div class="nav inner">
+                  <h1 class="logo">
+                      <a href="#" title="메가스터디북스">
+                          <img src="img/logo.svg" alt="메가스터디북스 홈">
+                      </a>
+                  </h1>
+                  <ul class="gnb">
+                      <li>초등</li>
+                      <li>중등</li>
+                      <li>고등</li>
+                      <li>단행본</li>
+                  </ul>
+                  <div class="menu">
+                    <label class="menu_wrap">
+                      <span class="menu_bar"></span>
+                      <span class="menu_bar"></span>
+                      <span class="menu_bar"></span>
+                    </label>
+                  </div>
+              </div>
+              <div class="menu_cont">
+                  <div class="inner">
+                    <div class="lnb">
+                      <strong class="lnb_link">도서</strong>
+                      <ul class="lnb_item">
+                        <li>초등</li>
+                        <li>중등</li>
+                        <li>고등</li>
+                        <li>단행본</li>
+                      </ul>
+                    </div>
+                    <div class="lnb">
+                      <strong class="lnb_link">자료실</strong>
+                      <ul class="lnb_item">
+                        <li>정답 및 해설</li>
+                        <li>정오표</li>
+                        <li>듣기자료</li>
+                        <li>교사용 자료</li>
+                        <li>부가자료</li>
+                      </ul>
+                    </div>
+                    <div class="lnb">
+                      <strong class="lnb_link">이벤트</strong>
+                    </div>
+                    <div class="lnb">
+                      <strong class="lnb_link">고객센터</strong>
+                      <ul class="lnb_item">
+                        <li>공지사항</li>
+                        <li>고객문의</li>
+                        <li>자주 묻는 질문</li>
+                        <li>오류 신고</li>
+                        <li>총판 안내</li>
+                        <li>제휴 문의</li>
+                        <li>투고 문의</li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+        </header>
+        <!-- //header -->
+
+        <main>
+          <!-- 메인 상단 배너 -->
+          <div class="swiper main_slide">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide main_banner"><img src="img/banner/main_banner01.png" alt=""></div>
+                  <div class="swiper-slide main_banner"><img src="img/banner/main_banner02.png" alt=""></div>
+                  <div class="swiper-slide main_banner"><img src="img/banner/main_banner03.png" alt=""></div>
+                  <div class="swiper-slide main_banner"><img src="img/banner/main_banner04.png" alt=""></div>
+                  <div class="swiper-slide main_banner"><img src="img/banner/main_banner05.png" alt=""></div>
+                  <div class="swiper-slide main_banner"><img src="img/banner/main_banner06.png" alt=""></div>
+                  <div class="swiper-slide main_banner"><img src="img/banner/main_banner07.png" alt=""></div>
+                  <div class="swiper-slide main_banner"><img src="img/banner/main_banner08.png" alt=""></div>
+                  <div class="swiper-slide main_banner"><img src="img/banner/main_banner09.png" alt=""></div>
+                  <div class="swiper-slide main_banner"><img src="img/banner/main_banner10.png" alt=""></div>
+              </div>
+              <div class="swiper-button-next main_btnNext"></div>
+              <div class="swiper-button-prev main_btnPrev"></div>
+              <div class="swiper-pagination main_pagination"></div>
+          </div>
+
+          <!-- 퀵메뉴 -->
+          <ul class="util_menu inner">
+              <li>
+                  <figure></figure>
+                  <span>정답 및 해설</span>
+              </li>
+              <li>
+                  <figure></figure>
+                  <span>정오표</span>
+              </li>
+              <li>
+                  <figure></figure>
+                  <span>듣기자료</span>
+              </li>
+              <li>
+                  <figure></figure>
+                  <span>교사용 자료</span>
+              </li>
+              <li>
+                  <figure></figure>
+                  <span>총판 안내</span>
+              </li>
+              <li>
+                  <figure></figure>
+                  <span>FAQ</span>
+              </li>
+          </ul>
+
+          <!-- 메가 PICK -->
+          <div class="main_pick">
+              <div class="inner">
+                  <h2>메가 PICK</h2>
+                  <div class="swiper pick_tab">
+                      <div class="swiper-wrapper pick_wrapper">
+                        <div class="swiper-slide pick_tabBtn on"># 초등공부시작부터끝까지</div>
+                        <div class="swiper-slide pick_tabBtn"><a href="#" class="pick_tag"># 일타강사Pick</a></div>
+                        <div class="swiper-slide pick_tabBtn"><a href="" class="pick_tag"># 탄탄한초등기본기</a></div>
+                        <div class="swiper-slide pick_tabBtn"><a href="" class="pick_tag"># 학원쌤의선택</a></div>
+                        <div class="swiper-slide pick_tabBtn"><a href="" class="pick_tag"># 중등내신대비</a></div>
+                        <div class="swiper-slide pick_tabBtn"><a href="" class="pick_tag"># 수능영어는ALLTIME조정식</a></div>
+                        <div class="swiper-slide pick_tabBtn"><a href="" class="pick_tag"># 서울대선배들의공부법</a></div>
+                      </div>
+                      <div class="swiper-button-next pickTab_btnNext"></div>
+                      <div class="swiper-button-prev pickTab_btnPrev"></div>
+                      <div class="btn_bg"></div>
+                  </div>
+                  <ul class="pick_list">
+                    <li class="on">
+                        <div class="swiper pick_item">
+                          <div class="swiper-wrapper">
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab1/sect1_banner01.jpg" alt="">
+                                <p class="pick_text">초끝 저절로 구구단</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab1/sect1_banner02.jpg" alt="">
+                                <p class="pick_text">초끝 스스로 시계+달력+계획표</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab1/sect1_banner03.jpg" alt="">
+                                <p class="pick_text">초끝 문장 학습+글쓰기 1단계</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab1/sect1_banner04.jpg" alt="">
+                                <p class="pick_text">초끝 맞춤법+어휘+독해 1단계</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab1/sect1_banner05.jpg" alt="">
+                                <p class="pick_text">초끝 문장 학습+글쓰기 2단계</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab1/sect1_banner06.jpg" alt="">
+                                <p class="pick_text">초끝 맞춤법+어휘+독해 2단계</p>
+                              </div>
+                          </div>  
+                          <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="swiper-button-next item_btnNext"></div>
+                        <div class="swiper-button-prev item_btnPrev"></div>
+                    </li>
+                    <li>
+                        <div class="swiper pick_item">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab2/sect1_banner01.jpg" alt="">
+                                <p class="pick_text">괜찮아 어법</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab2/sect1_banner02.jpg" alt="">
+                                <p class="pick_text">백신 과학 중등 1-1</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab2/sect1_banner03.jpg" alt="">
+                                <p class="pick_text">기출정식 고1 영어</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab2/sect1_banner04.jpg" alt="">
+                                <p class="pick_text">메가스터디 중학 국어 독해 비문학 사회 개념</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab2/sect1_banner05.jpg" alt="">
+                                <p class="pick_text">엠베스트 민정범 개념엔 유형학습 중학수학 1-1</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab2/sect1_banner06.jpg" alt="">
+                                <p class="pick_text">초등 문해력 한 문장 정리의 힘 기본편 1권</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab2/sect1_banner07.jpg" alt="">
+                                <p class="pick_text">메가스터디 N제 과학탐구영역 지구과학1 285제</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab2/sect1_banner08.jpg" alt="">
+                                <p class="pick_text">뭔말 과학 용어 200 1권</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab2/sect1_banner09.jpg" alt="">
+                                <p class="pick_text">뭔말 국어 용어 200 1권</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab2/sect1_banner10.jpg" alt="">
+                                <p class="pick_text">뭔말 역사 용어 150</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab2/sect1_banner11.jpg" alt="">
+                                <p class="pick_text">메가스터디 중학 국어 문학 필수개념 독해 연습 1권</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab2/sect1_banner12.jpg" alt="">
+                                <p class="pick_text">백신 통합과학 (너의 만점을 위한 바람)</p>
+                              </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="swiper-button-next item_btnNext"></div>
+                        <div class="swiper-button-prev item_btnPrev"></div>
+                    </li>
+                    <li>
+                        <div class="swiper pick_item">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab3/sect1_banner01.jpg" alt="">
+                                <p class="pick_text">큰별쌤 최태성의 스토리 한국사 사전</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab3/sect1_banner02.jpg" alt="">
+                                <p class="pick_text">초등 문해력 한 문장 정리의 힘 기본편 1권</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab3/sect1_banner03.jpg" alt="">
+                                <p class="pick_text">초등영문법 문장의 원리 Level 1</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab3/sect1_banner04.jpg" alt="">
+                                <p class="pick_text">이서윤쌤의 초등 한자 어휘 끝내기 1단계</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab3/sect1_banner05.png" alt="">
+                                <p class="pick_text">이서윤쌤의 초등한자어휘 일력</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab3/sect1_banner06.jpg" alt="">
+                                <p class="pick_text">초등 문해력 한 문장 정리의 힘 실전편 1권</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab3/sect1_banner07.jpg" alt="">
+                                <p class="pick_text">뭔말 과학 용어 200 1권</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab3/sect1_banner08.jpg" alt="">
+                                <p class="pick_text">뭔말 국어 용어 200 1권</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab3/sect1_banner09.jpg" alt="">
+                                <p class="pick_text">뭔말 역사 용어 200 1권</p>
+                              </div>
+                              <div class="swiper-slide item">
+                                <img src="img/mega_pick/tab3/sect1_banner10.jpg" alt="">
+                                <p class="pick_text">1일 1독해 한국사 1권 선사~통일 신라 발해편</p>
+                              </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="swiper-button-next item_btnNext"></div>
+                        <div class="swiper-button-prev item_btnPrev"></div>
+                    </li>
+                    <li>
+                      <div class="swiper pick_item">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab4/sect1_banner01.jpg" alt="">
+                              <p class="pick_text">수능 기출 올픽 영어 독해 (2025 수능 대비)</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab4/sect1_banner02.jpg" alt="">
+                              <p class="pick_text">수능 기출 올픽 국어 문학 (2025 수능 대비)</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab4/sect1_banner03.jpg" alt="">
+                              <p class="pick_text">수능 기출 올픽 수학1 (2025 수능 대비)</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab4/sect1_banner04.jpg" alt="">
+                              <p class="pick_text">메가스터디 수능 수학 킥(KICK) 수학 1</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab4/sect1_banner05.jpg" alt="">
+                              <p class="pick_text">메가스터디 수능 수학 킥(KICK) 수학 2</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab4/sect1_banner06.jpg" alt="">
+                              <p class="pick_text">메가스터디 수능 수학 킥(KICK) 미적분</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab4/sect1_banner07.jpg" alt="">
+                              <p class="pick_text">메가스터디 수능 수학 킥(KICK) 확률과 통계</p>
+                            </div>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                      </div>
+                      <div class="swiper-button-next item_btnNext"></div>
+                      <div class="swiper-button-prev item_btnPrev"></div>
+                    </li>
+                    <li>
+                      <div class="swiper pick_item">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab5/sect1_banner01.jpg" alt="">
+                              <p class="pick_text">백신 과학 중등 1-1</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab5/sect1_banner02.jpg" alt="">
+                              <p class="pick_text">백신 과학 중등 물리학</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab5/sect1_banner03.jpg" alt="">
+                              <p class="pick_text">메가스터디 중학 국어 비문학 독해 연습 1권</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab5/sect1_banner04.jpg" alt="">
+                              <p class="pick_text">메가스터디 중학 국어 문학 필수개념 독해 연습 1권</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab5/sect1_banner05.jpg" alt="">
+                              <p class="pick_text">메가스터디 중학 국어 독해 비문학 과학 개념</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab5/sect1_banner06.jpg" alt="">
+                              <p class="pick_text">메가스터디 중학 영단어 기본</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab5/sect1_banner07.jpg" alt="">
+                              <p class="pick_text">완쏠 개념 중등수학 1-1 (2025년)</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab5/sect1_banner08.jpg" alt="">
+                              <p class="pick_text">수학숙제 중 1-1</p>
+                            </div>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                      </div>
+                      <div class="swiper-button-next item_btnNext"></div>
+                      <div class="swiper-button-prev item_btnPrev"></div>
+                    </li>
+                    <li>
+                      <div class="swiper pick_item">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab2/sect1_banner01.jpg" alt="">
+                              <p class="pick_text">괜찮아 어법</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab2/sect1_banner03.jpg" alt="">
+                              <p class="pick_text">백신 과학 중등 물리학</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab6/sect1_banner01.jpg" alt="">
+                              <p class="pick_text">메가스터디 중학 국어 비문학 독해 연습 1권</p>
+                            </div>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                      </div>
+                      <div class="swiper-button-next item_btnNext"></div>
+                      <div class="swiper-button-prev item_btnPrev"></div>
+                    </li>
+                    <li>
+                      <div class="swiper pick_item">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab7/sect1_banner01.jpg" alt="">
+                              <p class="pick_text">백신 과학 중등 1-1</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab7/sect1_banner02.jpg" alt="">
+                              <p class="pick_text">백신 과학 중등 물리학</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab7/sect1_banner03.jpg" alt="">
+                              <p class="pick_text">메가스터디 중학 국어 비문학 독해 연습 1권</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab7/sect1_banner04.jpg" alt="">
+                              <p class="pick_text">메가스터디 중학 국어 문학 필수개념 독해 연습 1권</p>
+                            </div>
+                            <div class="swiper-slide item">
+                              <img src="img/mega_pick/tab7/sect1_banner05.jpg" alt="">
+                              <p class="pick_text">메가스터디 중학 국어 독해 비문학 과학 개념</p>
+                            </div>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                      </div>
+                      <div class="swiper-button-next item_btnNext"></div>
+                      <div class="swiper-button-prev item_btnPrev"></div>
+                    </li>
+                    
+                  </ul>
+              </div>
+          </div>
+
+          <!-- 중간 배너 -->
+          <div class="banner_test inner">
+            <figure></figure>
+          </div>
+
+          <!-- 베스트 셀러 -->
+          <div class="best_seller inner">
+            <div class="bs_top">
+              <h2>베스트셀러</h2>
+              <ul class="bs_tab">
+                <li class="on">초등</li>
+                <li>중등</li>
+                <li>고등</li>
+                <li>단행본</li>
+              </ul>
+            </div>
+              <div class="bs_tabcontents">
+                <div class="swiper bs_slide on">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner01.jpg" alt=""><span class="item_text">이서윤쌤의 초등 한자 어휘 끝내기 1단계</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner02.jpg" alt=""><span class="item_text">큰별쌤 최태성의 스토리 한국사 사전</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner03.jpg" alt=""><span class="item_text">이서윤쌤의 초등한자어휘 일력</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner04.jpg" alt=""><span class="item_text">초등영문법 문장의 원리 Level 1</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner05.jpg" alt=""><span class="item_text">뭔말 국어 용어 200 2권</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner06.jpg" alt=""><span class="item_text">뭔말 과학 용어 200 2권</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner07.jpg" alt=""><span class="item_text">스도쿠로 익히는 초등 필수 고사성어 100</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner08.jpg" alt=""><span class="item_text">1일 1독해 우리 고전 50 2권 교과서 고전문학</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner09.jpg" alt=""><span class="item_text">1일 1독해 세상을 바꾼 인물 100 1권 문화·예술</span></div>
+                  </div>
+                  <div class="swiper-button-next bs_btnNext"></div>
+                  <div class="swiper-button-prev bs_btnPrev"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <div class="swiper bs_slide">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide bs_item">
+                      <img src="img/banner/sect2_banner12.jpg" alt="">
+                      <span class="item_text">완쏠 개념 중등수학 1-1 (2025년)</span>
+                    </div>
+                    <div class="swiper-slide bs_item">
+                      <img src="img/banner/sect2_banner13.jpg" alt="">
+                      <span class="item_text">백신 과학 중등 1-1 (2023년)</span>
+                    </div>
+                    <div class="swiper-slide bs_item">
+                      <img src="img/banner/sect2_banner14.jpg" alt="">
+                      <span class="item_text">메가스터디 중학 국어 비문학 독해 연습 1권</span>
+                    </div>
+                    <div class="swiper-slide bs_item">
+                      <img src="img/banner/sect2_banner15.jpg" alt="">
+                      <span class="item_text">메가스터디 중학 국어 문학 필수개념 독해 연습 1권</span>
+                    </div>
+                  </div>
+                  <div class="swiper-button-next bs_btnNext"></div>
+                  <div class="swiper-button-prev bs_btnPrev"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <div class="swiper bs_slide">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner16.jpg" alt=""><span class="item_text">메가스터디 N제 영어영역 독해 332제 (2024년)</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner17.jpg" alt=""><span class="item_text">수능 기출 올픽 국어 문학 (2025 수능 대비)</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner18.jpg" alt=""><span class="item_text">수능 기출 올픽 영어 독해 (2025 수능 대비)</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner19.jpg" alt=""><span class="item_text">수능 기출 올픽 수학1 (2025 수능 대비)</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner20.jpg" alt=""><span class="item_text">괜찮아 어법</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner21.jpg" alt=""><span class="item_text">기출정식 고1 영어</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner22.jpg" alt=""><span class="item_text">메가스터디 수능 수학 킥(KICK) 수학 1</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner23.jpg" alt=""><span class="item_text">백신 통합과학 (너의 만점을 위한 바람)</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner24.jpg" alt=""><span class="item_text">메가스터디 N제 과학탐구영역 지구과학1 285제</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner25.jpg" alt=""><span class="item_text">메가스터디 N제 수학1 3점 공략 243제 (2024년)</span></div>
+                  </div>
+                  <div class="swiper-button-next bs_btnNext"></div>
+                  <div class="swiper-button-prev bs_btnPrev"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <div class="swiper bs_slide">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner26.jpg" alt=""><span class="item_text">초간단 집밥 다이어트 레시피</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner27.jpg" alt=""><span class="item_text">하와이 대저택 100일 미라클</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner28.jpg" alt=""><span class="item_text">서울대 의대 1학년의 찐 합격 노트</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner29.jpg" alt=""><span class="item_text">스스로 뒤집는 붕어빵</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner30.jpg" alt=""><span class="item_text">의대에 가고 싶어졌습니다</span></div>
+                    <div class="swiper-slide bs_item"><img src="img/banner/sect2_banner31.jpg" alt=""><span class="item_text">회사는 엑셀을 가르쳐주지 않아요</span></div>
+                  </div>
+                  <div class="swiper-button-next bs_btnNext"></div>
+                  <div class="swiper-button-prev bs_btnPrev"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <div class="bs_bgbox"></div>
+              </div>
+          </div>
+
+          <div class="bg_corner"></div>
+
+          <!-- 유튜브 -->
+          <div class="media_area inner">
+            <h2>메가스터디북스 유튜브</h2>
+            <div class="swiper media_slide">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide media_item"><img src="img/banner/youtube_banner01.jpg" alt=""></div>
+                <div class="swiper-slide media_item"><img src="img/banner/youtube_banner02.png" alt=""></div>
+                <div class="swiper-slide media_item"><img src="img/banner/youtube_banner03.png" alt=""></div>
+                <div class="swiper-slide media_item"><img src="img/banner/youtube_banner04.png" alt=""></div>
+              </div>
+            </div>
+            <div class="swiper-button-next media_btnNext"></div>
+            <div class="swiper-button-prev media_btnPrev"></div>
+          </div>
+
+          <!-- 이벤트 -->
+          <div class="event_area inner">
+            <div class="event_head">
+              <h2>이벤트</h2>
+              <button type="button" class="btn_more"><span>View more</span></button>
+            </div>
+            <ul class="event_cont">
+              <li>
+                <span>기획전</span>
+                <p class="event_title">믿고 보는 메가스터디 선생님 시리즈</p>
+                <img src="img/event01.png" alt="">
+              </li>
+              <li>
+                <span>이벤트</span>
+                <p class="event_title">&lt초끝&gt 출간 기념! 받아쓰기 노트 증정</p>
+                <img src="img/event02.png" alt="">
+              </li>
+              <li>
+                <span>굿즈</span>
+                <p class="event_title">완쏠 디지털 굿즈 무료 배포</p>
+                <img src="img/event03.jpg" alt="">
+              </li>
+            </ul>
+          </div>
+
+          <!-- 공지사항 -->
+          <div class="notice_area inner">
+            <h2>Notice</h2>
+            <ul class="notice_list">
+              <li>
+                <p class="notice_title">홈페이지 개인정보처리방침 안내</p>
+                <span class="notice_date">2023-11-24</span>
+              </li>
+              <li>
+                <p class="notice_title">홈페이지 이용약관 안내</p>
+                <span class="notice_date">2023-11-24</span>
+              </li>
+              <li>
+                <p class="notice_title">메가스터디북스 홈페이지 리뉴얼 오픈 안내</p>
+                <span class="notice_date">2023-11-13</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 커뮤니티 -->
+          <div class="commu_area inner">
+            <h2>Community</h2>
+            <ul class="commu_list">
+              <li>
+                <img src="img/icon/ico_insta.svg" alt=""> 
+                <span class="commu_item">메가스터디북스</span>
+              </li>
+              <li>
+                <img src="img/icon/ico_insta.svg" alt=""> 
+                <p class="commu_item">메가맘</p>
+              </li>
+              <li>
+                <img src="img/icon/ico_insta.svg" alt=""> 
+                <p class="commu_item">메가책방</p>
+              </li>
+              <li>
+                <img src="img/icon/ico-ytb.svg" alt=""> 
+                <p class="commu_item">메가스터디북스</p>
+              </li>
+              <li>
+                <img src="img/icon/ico-ncafe.svg" alt="">
+                <p class="commu_item">메가맘</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 플로팅 메뉴 -->
+          <div class="floating_book">
+            <img src="img/icon/ico_floating.svg" alt="">
+            <p class="floating_text">맞춤 도서</p>
+          </div>
+        </main>
+
+        <footer>
+          <div class="foot_top">
+            <div class="inner">
+              <ul class="fnb">
+                <li>회사소개</li>
+                <li>이용약관</li>
+                <li>개인정보처리방침</li>
+                <li>고객센터</li>
+                <li>제휴 문의</li>
+                <li>투고 문의</li>
+                <li>사이트맵</li>
+              </ul>
+              <ul class="f_sns">
+                <li><img src="img/icon/icon-sns-insta.svg" alt=""></li>
+                <li><img src="img/icon/icon-sns-insta.svg" alt=""></li>
+                <li><img src="img/icon/icon-sns-insta.svg" alt=""></li>
+                <li><img src="img/icon/icon-sns-ytb.svg" alt=""></li>
+                <li><img src="img/icon/icon-sns-blog.svg" alt=""></li>
+              </ul>
+              <div class="f_toggle">
+                <p class="site_list">Family site</p>
+                <ul>
+                  <li>Family site</li>
+                  <li>메가MD</li>
+                  <li>메가로스쿨</li>
+                  <li>메가로이어스</li>
+                  <li>메가랜드</li>
+                  <li>메가변리사</li>
+                  <li>메가원격평생교육원</li>
+                  <li>메가미래평생교육원</li>
+                  <li>메가BMC</li>
+                  <li>메가스터디</li>
+                  <li>엘리하이</li>
+                  <li>엠베스트</li>
+                  <li>메가공무원</li>
+                  <li>메가스터디학원</li>
+                  <li>러셀</li>
+                  <li>김영편입</li>
+                  <li>더조은</li>
+                  <li>메가스터디아카데미</li>
+                  <li>잇츠리얼타임</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="foot_bottom inner">
+            <div class="ft_logo"><img src="img/logo.svg" alt=""></div>
+            <div class="ft_info">
+              <span>메가스터디(주)</span>
+              <span>대표자 : 손은진</span>
+              <span>개인정보관리책임자 : 이상준</span>
+              <span>사업자등록번호 : 214-86-64631</span>
+              <span>통신판매업신고번호 : 2020-서울서초-0597</span> <br>
+              <span>서울 서초구 효령로 304(서초동) 국제전자센터 24층</span>
+              <span>팩스 : 02-6984-6997</span>
+              <span>고객센터 : 1661-5431</span>
+            </div>
+            <p class="ft_copy">Copyright ⓒ Megastudy, All rights reserved.</p>
+          </div>
+        </footer>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
